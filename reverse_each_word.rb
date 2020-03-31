@@ -2,7 +2,7 @@
 # of a sentence and returns that same sentence with each word reversed in
 # place.
 
-#First solve it using `.each` 
+#First solve it using `.each`
 #Then utilize the same method using `.collect` to see the difference.
 
 def reverse_each_word(string)
@@ -12,6 +12,6 @@ def reverse_each_word(string)
     return_array << string.reverse
   end
   return_array.join(" ")
-  
+
 end
   
